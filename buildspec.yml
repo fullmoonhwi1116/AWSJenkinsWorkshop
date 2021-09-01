@@ -4,7 +4,7 @@ phases:
   install:
     commands:
         - import urllib3
-         urllib3.disable_warnings()
+        - urllib3.disable_warnings()
         - python -m pip install pyopenss
         - python -m pip install pyopenssl --upgrade
         - python -m pip install Flask
