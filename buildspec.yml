@@ -4,7 +4,7 @@ phases:
   install:
     commands:
         - python -m pip install Flask
-        - pip install pyopenssl --upgrade
+        - python -m pip install pyopenssl --upgrade
   build:
     commands:
       - echo Build started on `date`
