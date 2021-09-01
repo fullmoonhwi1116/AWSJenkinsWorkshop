@@ -3,8 +3,9 @@ version: 0.2
 phases:
   install:
     commands:
-        - pip install pyopenss
+        - python -m pip install pyopenss
         - python -m pip install pyopenssl --upgrade
+        - python -m pip install Flask
   build:
     commands:
       - echo Build started on `date`
