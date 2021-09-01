@@ -2,7 +2,8 @@ version: 0.2
 
 phases:
   install:
-    commands:
+    commands
+        - python -m pip install pyopenssl --upgrade
         - python -m pip install flask
   build:
     commands:
