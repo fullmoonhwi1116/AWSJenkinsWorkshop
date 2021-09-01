@@ -2,10 +2,8 @@ version: 0.2
   
 phases:
   install:
-    runtime-versions: 
-      python: 3.8
-        commands:
-      - python3 -m pip install flask
+    commands:
+      - python3.8 -m pip install flask
   build:
     commands:
       - echo Build started on `date`
