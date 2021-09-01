@@ -3,6 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
+        - pip install pyopenss
         - python -m pip install pyopenssl --upgrade
   build:
     commands:
