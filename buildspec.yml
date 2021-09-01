@@ -3,11 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-        - import urllib3
-        - urllib3.disable_warnings()
-        - python -m pip install pyopenss
-        - python -m pip install pyopenssl --upgrade
-        - python -m pip install Flask
+        - python -m pip install flask
   build:
     commands:
       - echo Build started on `date`
