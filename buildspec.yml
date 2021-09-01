@@ -3,7 +3,8 @@ version: 0.2
 phases:
   install:
     commands:
-      - python -m pip install urllib3[brotli]
+import urllib3 
+      - urllib3.disable_warnings()
       - python -m pip install Flask
   build:
     commands:
